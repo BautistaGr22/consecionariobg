@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto | AutoPlus</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+      <div class="logo">AutoPlus</div>
+        <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+  <main class="contacto">
+    <h1>Contacto</h1>
+    <p>¿Querés comunicarte con nosotros? Completá el formulario.</p>
+
+ <form class="form-contacto" action="https://formspree.io/f/movdpngz" method="POST">
+  <input type="text" name="nombre" placeholder="Nombre" required />
+  <input type="email" name="email" placeholder="Correo electrónico" required />
+  <textarea name="mensaje" placeholder="Escribí tu mensaje..." rows="5" required></textarea>
+  <button type="submit">Enviar mensaje</button>
+</form>
+
+    
+  </main>
+
+  <footer>
+  <div class="footer-contenido">
+    <div class="footer-col">
+      <h3>AutoPlus</h3>
+      <p>Tu concesionaria de confianza. Vendemos autos nuevos y usados con garantía.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navegación</h4>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+        <div class="footer-col">
+              <h4>Contacto</h4>
+              <p>WhatsApp: <a href="https://wa.me/5491123456789">+54 9 11 2345-6789</a></p>
+              <p>Dirección: Av. Siempreviva 123, CABA</p>
+              <p>Horario: Lun a Sáb de 9 a 18 hs</p>
+            </div>
+       </div>
+        <div class="footer-copy">
+         <p>&copy; 2025 AutoPlus - Todos los derechos reservados</p>
+        </div>
+   </footer>
+</body>
+</html>
